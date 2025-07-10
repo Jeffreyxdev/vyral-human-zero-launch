@@ -119,8 +119,13 @@ Vyral Brand System - inspired by the style guide
   * {
     @apply border-border;
   }
+  
+  html {
+    overflow-x: hidden;
+  }
 
   body {
     @apply bg-background text-foreground;
+    overflow-x: hidden;
   }
 }
