@@ -20,7 +20,8 @@ export default {
 		extend: {
 			fontFamily: {
 				sans: ['Montserrat', 'sans-serif'],
-				display: ['Montserrat', 'sans-serif'],
+				display: ['Bernoru', 'Montserrat', 'sans-serif'],
+				heading: ['Bernoru', 'Montserrat', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',

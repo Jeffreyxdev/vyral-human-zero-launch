@@ -2,7 +2,7 @@ const Manifesto = () => {
   return (
     <section id="manifesto" className="py-20 px-4 bg-gradient-dark text-white">
       <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-5xl md:text-6xl font-black mb-8 text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-glow">
+        <h2 className="text-5xl md:text-6xl font-heading font-black mb-8 text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-glow">
           THE VYRAL MANIFESTO
         </h2>
         

@@ -61,7 +61,7 @@ const Services = () => {
     <section id="services" className="py-20 px-4 bg-muted/30">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-black mb-6 text-secondary">
+          <h2 className="text-4xl md:text-5xl font-heading font-black mb-6 text-secondary">
             SERVICES WE OFFER
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
@@ -82,7 +82,7 @@ const Services = () => {
                   <div className={`w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 bg-${service.color}/10 group-hover:bg-${service.color}/20 transition-colors`}>
                     <IconComponent className={`h-8 w-8 text-${service.color === 'primary' ? 'primary' : service.color === 'vyral-green' ? 'vyral-green' : service.color === 'vyral-teal' ? 'vyral-teal' : service.color === 'accent' ? 'accent' : 'secondary'}`} />
                   </div>
-                  <CardTitle className="text-xl font-bold text-foreground">
+                  <CardTitle className="text-xl font-heading font-bold text-foreground">
                     {service.title}
                   </CardTitle>
                 </CardHeader>
@@ -98,7 +98,7 @@ const Services = () => {
 
         {/* Work With Us CTA */}
         <div className="bg-gradient-dark rounded-3xl p-8 md:p-12 text-center text-white">
-          <h3 className="text-3xl md:text-4xl font-bold mb-6">
+          <h3 className="text-3xl md:text-4xl font-heading font-bold mb-6">
             Ready to Go Viral?
           </h3>
           <p className="text-xl opacity-90 mb-8 max-w-2xl mx-auto">

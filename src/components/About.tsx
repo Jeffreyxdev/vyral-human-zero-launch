@@ -6,7 +6,7 @@ const About = () => {
     <section id="about" className="py-20 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-black mb-6 text-secondary">
+          <h2 className="text-4xl md:text-5xl font-heading font-black mb-6 text-secondary">
             WHO IS VYRAL?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
@@ -23,7 +23,7 @@ const About = () => {
                 <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
                   <Target className="h-8 w-8 text-white" />
                 </div>
-                <h3 className="text-2xl font-bold text-primary mb-4">THE COMPANY</h3>
+                <h3 className="text-2xl font-heading font-bold text-primary mb-4">THE COMPANY</h3>
               </div>
               <p className="text-muted-foreground leading-relaxed">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -42,7 +42,7 @@ const About = () => {
                 <div className="w-16 h-16 bg-vyral-green rounded-full flex items-center justify-center mx-auto mb-4">
                   <Lightbulb className="h-8 w-8 text-white" />
                 </div>
-                <h3 className="text-2xl font-bold text-vyral-green mb-4">OUR MISSION</h3>
+                <h3 className="text-2xl font-heading font-bold text-vyral-green mb-4">OUR MISSION</h3>
               </div>
               <p className="text-muted-foreground leading-relaxed">
                 Pellentesque habitant morbi tristique senectus et netus 
@@ -60,7 +60,7 @@ const About = () => {
                 <div className="w-16 h-16 bg-vyral-teal rounded-full flex items-center justify-center mx-auto mb-4">
                   <Users className="h-8 w-8 text-white" />
                 </div>
-                <h3 className="text-2xl font-bold text-vyral-teal mb-4">THE TEAM</h3>
+                <h3 className="text-2xl font-heading font-bold text-vyral-teal mb-4">THE TEAM</h3>
               </div>
               <p className="text-muted-foreground leading-relaxed">
                 Nulla facilisi morbi tempus iaculis urna id volutpat 
@@ -75,7 +75,7 @@ const About = () => {
         {/* Extended Description */}
         <div className="bg-muted/30 rounded-3xl p-8 md:p-12">
           <div className="max-w-4xl mx-auto text-center">
-            <h3 className="text-3xl font-bold text-secondary mb-6">
+            <h3 className="text-3xl font-heading font-bold text-secondary mb-6">
               Beyond Traditional Marketing
             </h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
