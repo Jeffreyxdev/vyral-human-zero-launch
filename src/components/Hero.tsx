@@ -19,11 +19,11 @@ const Hero = () => {
       <div className="relative z-10 max-w-7xl mx-auto text-center">
         {/* Main Heading */}
         <div className="mb-8 animate-fade-in">
-          <h1 className="text-6xl md:text-8xl lg:text-9xl font-heading font-black tracking-tighter mb-4">
+          <h1 className="text-4xl md:text-8xl lg:text-9xl font-heading font-black tracking-tighter mb-4">
             <span className="text-primary">VYRAL</span>
           </h1>
           <div className="text-2xl md:text-4xl lg:text-5xl font-heading font-bold text-secondary mb-6">
-            <span className="animate-glow">HUMAN ZERO</span>
+            <span>HUMAN ZERO</span>
           </div>
         </div>
 
